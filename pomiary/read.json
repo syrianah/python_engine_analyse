@@ -1,0 +1,65 @@
+[{ "thrust" : -0.00, "temp" : 0, "time" : 6540 },
+
+{ "thrust" : 0.12, "temp" : 0, "time" : 6634 },
+
+{ "thrust" : 1.15, "temp" : 0, "time" : 6730 },
+
+{ "thrust" : 2.20, "temp" : 0, "time" : 6820 },
+
+{ "thrust" : 2.84, "temp" : 0, "time" : 6914 },
+
+{ "thrust" : 3.47, "temp" : 0, "time" : 7008 },
+
+{ "thrust" : 3.93, "temp" : 0, "time" : 7101 },
+
+{ "thrust" : 4.21, "temp" : 0, "time" : 7194 },
+
+{ "thrust" : 4.47, "temp" : 302.90, "time" : 7288 },
+
+{ "thrust" : 4.78, "temp" : 302.90, "time" : 7382 },
+
+{ "thrust" : 5.06, "temp" : 302.90, "time" : 7476 },
+
+{ "thrust" : 5.32, "temp" : 302.90, "time" : 7569 },
+
+{ "thrust" : 5.51, "temp" : 302.90, "time" : 7662 },
+
+{ "thrust" : 5.71, "temp" : 302.90, "time" : 7755 },
+
+{ "thrust" : 5.98, "temp" : 302.90, "time" : 7850 },
+
+{ "thrust" : 6.29, "temp" : 302.90, "time" : 7943 },
+
+{ "thrust" : 6.55, "temp" : 302.90, "time" : 8036 },
+
+{ "thrust" : 6.74, "temp" : 302.90, "time" : 8130 },
+
+{ "thrust" : 6.75, "temp" : 302.90, "time" : 8223 },
+
+{ "thrust" : 6.60, "temp" : 301.65, "time" : 8317 },
+
+{ "thrust" : 6.44, "temp" : 301.65, "time" : 8410 },
+
+{ "thrust" : 6.32, "temp" : 301.65, "time" : 8504 },
+
+{ "thrust" : 6.21, "temp" : 301.65, "time" : 8597 },
+
+{ "thrust" : 6.04, "temp" : 301.65, "time" : 8690 },
+
+{ "thrust" : 5.79, "temp" : 301.65, "time" : 8785 },
+
+{ "thrust" : 5.59, "temp" : 301.65, "time" : 8878 },
+
+{ "thrust" : 5.45, "temp" : 301.65, "time" : 8971 },
+
+{ "thrust" : 5.24, "temp" : 301.65, "time" : 9064 },
+
+{ "thrust" : 5.01, "temp" : 301.65, "time" : 9158 },
+
+{ "thrust" : 4.72, "temp" : 301.65, "time" : 9251 },
+
+{ "thrust" : 4.01, "temp" : 300.90, "time" : 9348 },
+
+{ "thrust" : 2.73, "temp" : 300.90, "time" : 9438 },
+
+{ "thrust" : 1.32, "temp" : 300.90, "time" : 9532 }]
