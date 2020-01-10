@@ -1,5 +1,5 @@
 
-exit_velocity = 18
+exit_velocity = 13
 
 rocket_velocity = 343
 rocket_mass = 3.5  # masa startowa rakiety
