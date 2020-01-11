@@ -1,3 +1,6 @@
+# http://www.space-rockets.com/arsainfo.html#finsize
+
+
 def fin_area(diameter, lenght):
     return round(0.13 * ((diameter + 0.5) * lenght), 2)
 
