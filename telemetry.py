@@ -15,8 +15,8 @@ burn_time = (file[len(file)-1]['time'] - file[0]['time']) * 1000
 
 mass = 2
 burn_time = 1.43
-# avr_thurst = (thrust_sum / mesure_num) * 10  # średni ciąg
-impuls = 1047.09  # avr_thurst * burn_time  # impuls całkowity
+avr_thurst = (thrust_sum / mesure_num) * 10  # średni ciąg
+impuls = avr_thurst * burn_time  # impuls całkowity
 rocket_velocity = impuls / mass  # prędkość rakiety
 rocket_altitude = rocket_velocity**2 / (mass*9.81)  # wysokość lotu rakiety
 
