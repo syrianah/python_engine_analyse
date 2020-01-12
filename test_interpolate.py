@@ -84,7 +84,7 @@ def prepare_to_plot(data_path):
 
 time, thrust = prepare_to_plot('pomiary/read.json')
 fig, ax = plt.subplots()
-ax.plot(time, thrust, label='nozzle 45mm', color='red')
+ax.plot(time, thrust, label='one grain', color='red')
 
 ax.set(xlabel='time (ms)', ylabel='thrust (N)',
        title='Chart of the thrust to time')
