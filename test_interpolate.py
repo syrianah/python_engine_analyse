@@ -12,6 +12,7 @@ def prepare_to_plot(data_path):
     time_array = []
 
     for sample in file:
+        # thrust_array.append(sample["temp"])
         thrust_array.append(sample["thrust"]*10)
         time_array.append(sample["time"])
         # print(sample["thrust"])
@@ -35,6 +36,7 @@ def prepare_to_plot(data_path):
     print(new_time_array)
     return new_time_array, thrust_array
 
+# Multi plot
 
 # with open('pomiary/READOUTS_KAL_45.json') as f:
 #     file = json.load(f)
@@ -81,6 +83,7 @@ def prepare_to_plot(data_path):
 # ax.plot(time55, thrust55, color='blue', label='nozzle 55mm')
 # ax.plot(time60, thrust60, color='orange', label='nozzle 60mm')
 # ax.plot(time70, thrust70, color='black', label='nozzle 70mm')
+
 
 time, thrust = prepare_to_plot('pomiary/read.json')
 fig, ax = plt.subplots()
