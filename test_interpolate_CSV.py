@@ -25,7 +25,7 @@ print(time)
 
 
 f2 = interp1d(time, thrust)
-xnew = np.linspace(0, 140, num=40, endpoint=True)
+xnew = np.linspace(0, 140, num=140, endpoint=True)
 
 
 fig, ax = plt.subplots()
