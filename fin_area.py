@@ -8,6 +8,8 @@ def fin_area(diameter, lenght):
 def fin_width(diameter):
     return round(1.25 * diameter, 2)
 
+# add calculate by difrent angle (numpy tg(angle))
+
 
 def calculate_fin(fin_area, fin_width):
     tg70 = 2.7475
@@ -19,8 +21,10 @@ def calculate_fin(fin_area, fin_width):
     return {"fin_x": x, "fin_y": y, "fin_z": z, "fin_length": fin_length, "fin_width": fin_width, "fin_area": fin_area}
 
 
-diameter = 75.5
-length = 1500
+diameter = 53
+length = 619
 
 fin = calculate_fin(fin_area(diameter, length), fin_width(diameter))
 print(fin)
+
+print(fin_area(diameter, length))
