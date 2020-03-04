@@ -1,7 +1,11 @@
-import matplotlib
-import matplotlib.pyplot as plt
 import numpy as np
 import json
+from matplotlib import pyplot as plt
+import matplotlib
+matplotlib.use("TkAgg")
+
+input_path = "pomiary/read.json"
+output_path = "obliczenia/test-read.png"
 
 
 def prepare_to_plot(data_path):
@@ -85,7 +89,7 @@ def prepare_to_plot(data_path):
 # ax.plot(time70, thrust70, color='black', label='nozzle 70mm')
 
 
-time, thrust = prepare_to_plot('pomiary/read.json')
+time, thrust = prepare_to_plot(input_path)
 fig, ax = plt.subplots()
 ax.plot(time, thrust, label='one grain', color='red')
 
@@ -95,5 +99,5 @@ ax.grid()
 
 plt.legend(frameon=True, loc='upper right', ncol=2)
 
-fig.savefig("obliczenia/test.png")
+fig.savefig(output_path)
 plt.show()
