@@ -22,7 +22,7 @@ def calculate_fin(fin_area, fin_width):
 
 
 diameter = 53
-length = 619
+length = 700
 
 fin = calculate_fin(fin_area(diameter, length), fin_width(diameter))
 print(fin)
